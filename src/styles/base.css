@@ -1,0 +1,17 @@
+@import "./tokens.css";
+
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--dc-color-background);
+  color: var(--dc-color-text);
+  font-family: var(--dc-fontFamily-body);
+  font-size: var(--dc-fontSize-md);
+  line-height: 1.5;
+}
+a { color: var(--dc-color-primary); }
+a:hover { color: var(--dc-color-primaryHover); }
+img { max-width: 100%; display: block; }
+:focus-visible { outline: 3px solid var(--dc-color-accent); outline-offset: 2px; }
+.dc-container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+@media (max-width: 720px) { .dc-container { padding: 0 16px; } }

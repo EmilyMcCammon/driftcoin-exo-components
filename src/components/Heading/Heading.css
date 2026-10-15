@@ -1,0 +1,7 @@
+.dc-heading {
+  margin: 0;
+  font-family: var(--dc-fontFamily-display);
+  font-weight: var(--dc-fontWeight-bold);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}

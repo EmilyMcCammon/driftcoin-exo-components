@@ -1,0 +1,15 @@
+.dc-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 var(--dc-space-lg);
+  border-radius: var(--dc-radius-pill);
+  font-family: var(--dc-fontFamily-body);
+  font-size: var(--dc-fontSize-md);
+  font-weight: var(--dc-fontWeight-semibold);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: filter 120ms ease;
+}
+.dc-button:hover { filter: brightness(0.92); }

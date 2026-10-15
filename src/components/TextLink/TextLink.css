@@ -1,0 +1,9 @@
+.dc-textlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font-weight: var(--dc-fontWeight-semibold);
+  text-decoration: none;
+}
+.dc-textlink:hover { text-decoration: underline; }

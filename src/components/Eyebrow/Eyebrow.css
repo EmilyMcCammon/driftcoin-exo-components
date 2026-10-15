@@ -1,0 +1,7 @@
+.dc-eyebrow {
+  margin: 0;
+  font-family: var(--dc-fontFamily-mono);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

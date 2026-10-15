@@ -1,0 +1,4 @@
+.dc-section-header { display: flex; flex-wrap: wrap; gap: var(--dc-space-lg); justify-content: space-between; align-items: flex-end; }
+.dc-section-header__copy { display: flex; flex-direction: column; gap: var(--dc-space-md); max-width: 720px; }
+.dc-section-header--center { justify-content: center; text-align: center; }
+.dc-section-header--center .dc-section-header__copy { align-items: center; }

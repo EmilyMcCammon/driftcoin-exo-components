@@ -1,0 +1,28 @@
+{
+  "name": "driftcoin-exo-components",
+  "version": "0.1.0",
+  "description": "React components and W3C DTCG design tokens for the fictional Driftcoin Business site, used for Contentful ExO end to end testing.",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build:tokens": "node scripts/build-tokens.mjs",
+    "predev": "npm run build:tokens",
+    "dev": "vite",
+    "prebuild": "npm run build:tokens",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7"
+  }
+}
